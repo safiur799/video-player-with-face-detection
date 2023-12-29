@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+video {
+  width: 640px;
+  height: 480px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  border: 2px solid #333;
+}

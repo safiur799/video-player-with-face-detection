@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import FaceDetectionComponent from "./components/FaceDetectionComponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div>hello world </div>
+    <div>
+      <h1>Face Detection with face-api.js</h1>
+      <FaceDetectionComponent />
     </div>
   );
-}
+};
 
 export default App;
